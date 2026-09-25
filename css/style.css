@@ -21,12 +21,9 @@ padding: 20px;
 text-align: center;
 }
 
-#index{
-background-color: rgb(230, 225, 217);
-padding: 20px;
-text-align: center;
 
-}
+
+
 
 #articles {
     background-color: rgb(171, 222, 255);
@@ -36,7 +33,7 @@ p{
     text-align: justify;
     font-size: 1.2rem;
     line-height: 2.4rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 
 }
 
@@ -56,4 +53,17 @@ nav ul {
    gap: 10px;
    justify-content: center;
 
+}
+
+
+#index {
+background-color: rgb(230, 225, 217);
+padding: 20px;
+text-align: center;
+}
+
+#dos {
+background-color: rgb(230, 225, 217);
+padding: 20px;
+text-align: center;
 }
