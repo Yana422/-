@@ -6,7 +6,8 @@ html {
     font-size: 1em;
     font-family: "Commissioner", sans-serif;
 }
-header { background-color: rgb(27, 129, 224);
+header {
+background-color: rgb(27, 129, 224);
 text-align: center;
 padding-top:20px ;
 padding-bottom: 40px;
@@ -55,12 +56,19 @@ nav ul {
 
 }
 
-
 #index {
 background-color: rgb(230, 225, 217);
 padding: 20px;
 text-align: center;
 }
+
+#registration {
+background-color: rgb(102, 162, 202);
+padding: 20px;
+text-align: center;
+}
+
+
 
 #dos {
 background-color: rgb(230, 225, 217);
@@ -72,4 +80,109 @@ text-align: center;
 background-color: rgb(230, 225, 217);
 padding: 20px;
 text-align: center;
+}
+nav a:visited{
+    color: rgb(38, 0, 126);
+}
+nav a:hover{
+color: #0bda15;
+text-decoration: underline;
+}
+nav:focus{
+    color: aqua;
+    transform: scale(1.2);
+}
+
+nav :active{
+    color: crimson;
+}
+nav a{
+color: rgb(38, 0, 126);
+text-decoration: none;
+display: inline-block;
+transition: 0.5s;
+}
+
+#articles li:nth-child(odd) {
+background-color: rgb(115, 177, 212);
+}
+
+h2::after{
+    content: "new!";
+    font-size: 12px;
+    margin-left: 10px;
+    color: dimgray;
+}
+.bi-lightbulb{
+    color: rgb(0, 0, 0);
+}
+#articles a::after {
+    content: "\F49E";
+    font-family: "bootstrap-icons";
+    text-decoration: none;
+}
+
+/*---верстка форм---*/
+.form-reg {
+    width: 250px;
+    margin: 20px auto;
+    background-color: rgb(197, 177, 145);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+input {
+    background-color: rgb(235, 225, 207);
+    border: #00277a 1px solid;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+
+}
+
+input[type=submit] {
+    background-color: rgb(133, 107, 58);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+input[type=sumbit]:hover {
+    background-color: #194b02;
+    cursor: pointer;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    accent-color: rgb(17, 8, 138);
+}
+
+select {
+    /**/
+    width: 180px;
+}
+
+textarea{
+    /**/
+     width: 180px;
+}
+
+a:hover {
+   
+    color: rgb(38, 0, 126);
+}
+a:hover{
+color: #065c0a;
+text-decoration: underline;
+}
+#articles a:focus{
+    color: aqua;
+    transform: scale(1.2);
+}
+
+#articles a::after{
+    font-family: 'Courier New', Courier, monospace;
+    content: "ВАЖНО";
+    font-size: 20px;
+    margin-left: 5px;
+    color: #18aa1f;
+    background-color: #1b5280;
 }
