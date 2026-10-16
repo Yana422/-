@@ -178,11 +178,32 @@ text-decoration: underline;
     transform: scale(1.2);
 }
 
-#articles a::after{
+#articles li:last-child a::after {
     font-family: 'Courier New', Courier, monospace;
     content: "ВАЖНО";
     font-size: 20px;
     margin-left: 5px;
     color: #18aa1f;
     background-color: #1b5280;
+}
+#about p::first-line{
+    letter-spacing: 4px;
+}
+
+#index p::first-line{
+    letter-spacing: 4px;
+}
+#dos p::first-line{
+    letter-spacing: 4px;
+}
+
+#dom p::first-line{
+    letter-spacing: 4px;
+}
+
+#dol p::first-line{
+    letter-spacing: 4px;
+}
+#about h2 {
+    color: #040286;
 }
